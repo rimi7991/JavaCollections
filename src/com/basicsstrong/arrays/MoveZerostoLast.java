@@ -15,14 +15,12 @@ public class MoveZerostoLast {
                 count ++;
             }
         }
-        System.out.print("{");
-        for(int i = 0; i<arr.length; i++)
-            System.out.print(arr[i]+ ",");
-        System.out.print("}");
     }
 
     public static void main(String[] args) {
         int arr[] = {3,6,0,5,0,0,0,7,0};
         moveZeros(arr);
+        for(int i = 0; i<arr.length; i++)
+            System.out.print(arr[i]+ " ");
     }
 }
